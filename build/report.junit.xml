@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/home/ostap/css2tailwind/tests" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.013298">
+    <testsuite name="CSS2Tailwind\Tests\ConvertorTest" file="/home/ostap/css2tailwind/tests/ConvertorTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.013298">
+      <testsuite name="CSS2Tailwind\Tests\ConvertorTest::test_it_can_convert_properties" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.013298">
+        <testcase name="test_it_can_convert_properties with data set #0" class="CSS2Tailwind\Tests\ConvertorTest" classname="CSS2Tailwind.Tests.ConvertorTest" file="/home/ostap/css2tailwind/tests/ConvertorTest.php" line="16" assertions="1" time="0.013298"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+{
+    "name": "ostap/css2tailwind",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ostap",
+            "email": "osbre@protonmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CSS2Tailwind\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CSS2Tailwind\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "sabberworm/php-css-parser": "^8.3",
+        "phpunit/phpunit": "^9.4",
+        "symfony/css-selector": "^5.1",
+        "pelago/emogrifier": "^4.0",
+        "imangazaliev/didom": "^1.16",
+        "symfony/console": "^5.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    }
+}
