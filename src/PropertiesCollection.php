@@ -2,7 +2,7 @@
 
 namespace CSS2Tailwind;
 
-class Properties
+class PropertiesCollection
 {
     public const STATIC = [
         'justify-content' => [

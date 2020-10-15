@@ -11,7 +11,6 @@ final class Convertor
 
     private string $html;
 
-    const CSS_PROPERTIES_DELIMITER = ';';
 
     public function __construct(string $css, string $html)
     {
@@ -31,11 +30,9 @@ final class Convertor
             $style = $element->attr('style');
             $classNames = '';
 
-            $properties = explode(self::CSS_PROPERTIES_DELIMITER, $style);
-            $properties = array_filter($properties);
+            $properties = PropertiesParser::parse($style);
 
             foreach ($properties as $property) {
-                $property  = PropertyFactory::makeFromString($property);
                 $convertor = new PropertyConvertor($property);
                 $className = $convertor->convert();
 

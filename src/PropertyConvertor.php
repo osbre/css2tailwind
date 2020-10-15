@@ -13,8 +13,8 @@ class PropertyConvertor
 
     public function convert(): ?string
     {
-        if (Properties::isStatic($this->property->name)) {
-            return Properties::getStatic(
+        if (PropertiesCollection::isStatic($this->property->name)) {
+            return PropertiesCollection::getStatic(
                 $this->property->name,
                 $this->property->value
             );

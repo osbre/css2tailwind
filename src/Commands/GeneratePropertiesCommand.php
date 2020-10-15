@@ -8,11 +8,10 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class GeneratePropertiesCommand extends Command
 {
-    protected function configure()
+    protected function configure(): void
     {
         $this->setName('generate');
     }
-
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
